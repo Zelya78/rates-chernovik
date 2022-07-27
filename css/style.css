@@ -1,0 +1,52 @@
+body {
+    padding: 2em;
+    font: 1em/1.5 "Roboto Slab", sans-serif;
+    color: #333333;
+  }
+
+.table-price {
+    min-width: 500px;                 /* ширина не менее, чем */
+    font-size: 18px;
+    border-collapse: collapse;        /* убираем промежутки между ячейками */
+  border: 3px solid #f79361;        /* устанавливаем границу для всей таблицы */
+   }
+  
+  .table-price caption {              /* стили для подписи к таблице */
+    text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    color: #333333;
+    font-style: normal;
+    font-size: 26px;
+    text-align: left;
+    margin: 10px 0 15px;
+  }
+  
+  .table-price td,
+  .table-price th {
+    padding: 10px;                    /* отступ посмотрели в макете */
+  }
+
+  .table-price th {
+    text-align: left;                 /* заголовки выравниваем по левому краю */
+  }
+  
+  .table-price tr {
+    border-top: 3px solid #f79361;    /* верхняя граница для строк таблицы */
+  }
+  
+  .table-price tr:nth-child(even) {
+    background-color: #e5e5e5;        /* таблица полосатая */
+  }
+
+  .table-price a {                    /* стили для ссылки "Подключить" */
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f79361;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 17px;
+  }
+  
+  .table-price a:hover {
+    color: #ffffff;
+    box-shadow: 2px 2px 0 0 #a22800;
+  }
